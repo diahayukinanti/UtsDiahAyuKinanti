@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         adapter = new ListUsersAdapter();
-        String nama = "DiahAyu";
+        String nama = "Diah";
 
         Call<GitHubResponse> api = ApiConfig.service().getUsers(nama);
         api.enqueue(new Callback<GitHubResponse>() {
