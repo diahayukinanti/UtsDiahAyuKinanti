@@ -18,5 +18,5 @@ public interface ApiService {
     @GET("users/{username}")
     Call<ItemUser> getDetailUser(@Path("username") String username);
 
-    String TOKEN = "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";
+    String TOKEN = "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";
 }
